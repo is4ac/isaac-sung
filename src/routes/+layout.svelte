@@ -14,7 +14,7 @@
 	<slot />
 
 	<footer
-		class="bg-blueGray h-[75px] mt-auto flex items-center md:justify-between md:flex-row flex-col px-12 w-full"
+		class="bg-blueGray h-[75px] mt-auto flex items-center md:justify-between md:flex-row flex-col justify-center px-12 w-full"
 	>
 		<p>© {currentYear} Isaac Sung. All rights reserved.</p>
 		<p class="flex items-center gap-2">
