@@ -1,5 +1,6 @@
 <script>
 	import Card from '../components/card.svelte';
+	import DetailsPane from '../components/details-pane.svelte';
 
 	const cards = [
 		{ imageSrc: 'card1.jpg', title: 'Card 1' },
@@ -17,8 +18,14 @@
 	];
 </script>
 
-<div class="grid grid-cols-6 gap-2">
-	{#each cards as card}
-		<Card {...card} />
-	{/each}
+<div class="flex flex-col h-[50dvh] justify-between">
+	<div class="grid grid-cols-6 gap-1">
+		{#each cards as card}
+			<Card {...card} />
+		{/each}
+	</div>
+
+	<div class="w-full px-24 mt-4">
+		<DetailsPane title="Details Pane" description="This is a details pane." />
+	</div>
 </div>
