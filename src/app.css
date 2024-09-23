@@ -16,6 +16,14 @@ html {
 	border-color: theme(colors.border);
 }
 
+a {
+	@apply transition-all duration-300;
+
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */

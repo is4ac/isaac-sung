@@ -5,7 +5,7 @@
 
 <div
 	class="h-36 w-36 rounded-lg flex items-end justify-center bg-cardBackground bg-origin-border bg-center bg-no-repeat bg-cover border-border border-2"
-	style="background-image: url(../assets/images/${imageSrc})"
+	style="background-image: url({imageSrc})"
 >
 	<span class="uppercase">{title}</span>
 </div>
