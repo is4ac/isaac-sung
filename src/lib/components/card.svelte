@@ -18,5 +18,6 @@
 	style="background-image: url({card.imageSrc})"
 	tabindex="0"
 >
-	<span class="w-full bg-darkRed py-1 text-center text-xs uppercase">{card.title}</span>
+	<span class="w-full rounded-lg bg-darkRed py-1.5 text-center text-xs uppercase">{card.title}</span
+	>
 </div>
