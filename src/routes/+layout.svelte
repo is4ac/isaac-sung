@@ -7,8 +7,16 @@
 </script>
 
 <main class="min-h-dvh flex flex-col items-center">
-	<header class="bg-blueGray h-[120px] flex items-center px-12 w-full -mb-3">
-		<h1><em>ISAAC SUNG</em></h1>
+	<header class="relative z-0 bg-blueGray h-[120px] px-12 w-full -mb-3">
+		<h2 class="absolute left-[50%] -ml-[120px] top-5 lg:ml-0 lg:left-auto lg:bottom-5 lg:top-auto">
+			<em>ISAAC SUNG</em>
+		</h2>
+
+		<div
+			class="absolute left-[50%] bottom-4 -ml-[150px] w-[300px] bg-background px-4 py-1 border-border border-x-8 border-y-2 text-center"
+		>
+			<h4>isaac-sung.com</h4>
+		</div>
 	</header>
 
 	<slot />
