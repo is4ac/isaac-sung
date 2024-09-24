@@ -1,6 +1,8 @@
 import fillerImage from '$lib/assets/images/filler.webp';
 import kimcheeseImage from '$lib/assets/images/kimcheese.webp';
 import sharkbyteImage from '$lib/assets/images/sharkbyte.webp';
+import charisnotesImage from '$lib/assets/images/charisnotes.webp';
+import musicavenueImage from '$lib/assets/images/musicavenue.webp';
 import type { CardType } from '../types';
 
 export const content: CardType[] = [
@@ -17,14 +19,14 @@ export const content: CardType[] = [
 		url: '/pages/kimcheese'
 	},
 	{
-		imageSrc: fillerImage,
+		imageSrc: musicavenueImage,
 		title: 'Music Avenue',
 		description:
 			'A 501(c)(3) non-profit organization that provides accessible music education to children in Dane County, Wisconsin. Website designed and maintained by me.',
 		url: 'https://www.musicavenue.org'
 	},
 	{
-		imageSrc: fillerImage,
+		imageSrc: charisnotesImage,
 		title: 'Charis Notes',
 		description:
 			'Personal website for Charis, a talented musician who happens to be my wife. Website designed and maintained by me.',
