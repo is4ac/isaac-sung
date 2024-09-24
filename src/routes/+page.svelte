@@ -18,14 +18,14 @@
 	];
 </script>
 
-<div class="flex flex-col h-[50dvh] justify-between">
-	<div class="grid grid-cols-6 gap-1">
+<div class="flex flex-col h-[50dvh] justify-between items-center">
+	<div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-1 max-w-[750px]">
 		{#each cards as card}
 			<Card {...card} />
 		{/each}
 	</div>
 
-	<div class="w-full px-24 mt-4">
+	<div class="w-[95dvw] mx-auto md:max-w-[800px] md:mt-4">
 		<DetailsPane title="Details Pane" description="This is a details pane." />
 	</div>
 </div>

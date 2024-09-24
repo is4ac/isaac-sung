@@ -4,8 +4,8 @@
 </script>
 
 <div
-	class="h-36 w-36 rounded-lg flex items-end justify-center bg-cardBackground bg-origin-border bg-center bg-no-repeat bg-cover border-border border-2"
+	class="h-28 w-28 sm:h-36 sm:w-36 rounded-lg flex items-end justify-center bg-cardBackground bg-origin-border bg-center bg-no-repeat bg-cover border-border border-2"
 	style="background-image: url({imageSrc})"
 >
-	<span class="uppercase">{title}</span>
+	<span class="uppercase text-xs sm:text-base">{title}</span>
 </div>
