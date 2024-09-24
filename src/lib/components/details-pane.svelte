@@ -3,7 +3,9 @@
 	export let description: string;
 </script>
 
-<div class="flex w-full flex-col gap-2 rounded-lg border-2 border-border bg-darkGray px-4 py-2">
-	<h2>{title}</h2>
-	<p>{description}</p>
+<div
+	class="flex min-h-[20dvh] w-full flex-col gap-4 rounded-lg border-2 border-border bg-darkGray px-6 py-4"
+>
+	<h3>{title}</h3>
+	<p class="leading-relaxed">{description}</p>
 </div>
