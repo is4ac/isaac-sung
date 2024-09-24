@@ -10,7 +10,18 @@
 	}
 }
 
+/*
+ * Custom font
+ */
+@font-face {
+	font-family: 'PressStart2P';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/press-start-2p.ttf') format('truetype');
+}
+
 html {
+	font-family: 'PressStart2P', sans-serif;
 	background-color: theme(colors.background);
 	color: theme(colors.white);
 	border-color: theme(colors.border);
@@ -72,31 +83,31 @@ select {
 BEGIN Typography========
 */
 h1 {
-	@apply text-4xl;
-}
-
-h2 {
 	@apply text-3xl;
 }
 
-h3 {
+h2 {
 	@apply text-2xl;
 }
 
-h4 {
+h3 {
 	@apply text-xl;
 }
 
-h5 {
+h4 {
 	@apply text-lg;
 }
 
-h6 {
+h5 {
 	@apply text-base;
 }
 
+h6 {
+	@apply text-sm;
+}
+
 p {
-	@apply text-base;
+	@apply text-xs;
 }
 /*
 END Typography============
