@@ -9,7 +9,8 @@ export default {
 				border: '#a2a6a8',
 				cardBackground: '#415f7d',
 				blueGray: '#4e5861',
-				darkGray: '#39383e'
+				darkGray: '#39383e',
+				darkRed: '#250303'
 			}
 		}
 	},
