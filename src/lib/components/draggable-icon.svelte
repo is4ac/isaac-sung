@@ -11,24 +11,16 @@
 				',' +
 				(parseInt(style.getPropertyValue('top'), 10) - event.clientY)
 		);
-
-		console.log('drag_start', parseInt(style.getPropertyValue('left'), 10) - event.clientX);
-		console.log('drag_start', event.clientX);
 	}
 
 	function drag_over(event) {
-		// console.log('drag over test');
 		event.preventDefault();
 		return false;
 	}
 
 	function drop(event) {
-		// console.log('drop test');
 		var offset = event.dataTransfer.getData('text/plain').split(',');
 		var dm = document.getElementById('dragme');
-
-		console.log({ offset });
-		console.log({ dm });
 
 		dm.style.left = event.clientX + parseInt(offset[0], 10) + 'px';
 		dm.style.top = event.clientY + parseInt(offset[1], 10) + 'px';
@@ -47,8 +39,9 @@
 <style>
 	aside {
 		position: absolute;
-		left: 0;
-		top: 0; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+		margin: auto;
+		left: 100px;
+		top: 15px; /* set these so Chrome doesn't return 'auto' from getComputedStyle */
 		z-index: 20;
 		display: flex;
 		align-items: center;
