@@ -36,7 +36,7 @@
 
 <aside draggable="true" id="dragme" on:dragstart={drag_start}>P1</aside>
 
-<style>
+<style lang="postcss">
 	aside {
 		position: absolute;
 		margin: auto;
@@ -46,9 +46,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: blue;
+		background-color: theme(colors.primary);
 		border-radius: 100%;
-		border: 2px black;
+		border: 2px solid theme(colors.white);
 		width: 64px;
 		height: 64px;
 		user-select: none;
