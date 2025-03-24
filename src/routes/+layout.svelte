@@ -20,7 +20,9 @@
 		</div>
 
 		{#if $pageTitle !== 'isaac-sung.com'}
-			<a href="/" class="absolute right-3 top-[50%] -mt-3 md:right-12">Back</a>
+			<a href="/" class="absolute left-3 top-6 -mt-3 text-sm md:left-14 md:top-[30%]"
+				>&lt;&lt; Back</a
+			>
 		{/if}
 	</header>
 

@@ -4,6 +4,7 @@
 	import DetailsPane from '$lib/components/details-pane.svelte';
 	import { content } from '$lib/data/content';
 	import { pageTitle } from '$lib/stores/pageTitle';
+	import DraggableIcon from '$lib/components/draggable-icon.svelte';
 
 	let selectedCard: CardType | null = null;
 	let hoveredCard: CardType | null = null;
@@ -21,6 +22,8 @@
 
 	pageTitle.set('isaac-sung.com');
 </script>
+
+<DraggableIcon />
 
 <div class="z-10 flex h-[50dvh] flex-col items-center justify-start">
 	<div class="grid max-w-[750px] grid-cols-3 gap-1 sm:grid-cols-4 md:grid-cols-5">
