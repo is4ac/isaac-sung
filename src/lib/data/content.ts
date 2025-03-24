@@ -3,6 +3,8 @@ import kimcheeseImage from '$lib/assets/images/kimcheese.webp';
 import sharkbyteImage from '$lib/assets/images/sharkbyte.webp';
 import charisnotesImage from '$lib/assets/images/charisnotes.webp';
 import musicavenueImage from '$lib/assets/images/musicavenue.webp';
+import bnwImage from '$lib/assets/images/bnw_icon.png';
+import abyssalImage from '$lib/assets/images/abyssal.webp';
 import type { CardType } from '../types';
 
 export const content: CardType[] = [
@@ -36,18 +38,17 @@ export const content: CardType[] = [
 	{ imageSrc: fillerImage, title: 'PhD & Research', description: '', url: '/pages/research' },
 	{ imageSrc: fillerImage, title: 'Teaching', description: '', url: '/pages/teaching' },
 	{
-		imageSrc: fillerImage,
-		title: 'Hoyo Translator',
+		imageSrc: abyssalImage,
+		title: 'Abyssal Funk (WIP)',
 		description: '',
-		url: '/pages/hoyotranslator'
+		url: '/pages/abyssal-funk'
 	},
-	{ imageSrc: fillerImage, title: 'Card Game (WIP)', description: '', url: '/pages/card-game' },
 	{
 		imageSrc: fillerImage,
 		title: 'Weather Guesser',
 		description: '',
 		url: '/pages/weather-guesser'
 	},
-	{ imageSrc: fillerImage, title: 'Brave New Word', description: '', url: '/pages/brave-new-word' },
+	{ imageSrc: bnwImage, title: 'Brave New Word', description: '', url: '/pages/brave-new-word' },
 	{ imageSrc: fillerImage, title: 'Wordoku (WIP)', description: '', url: '/pages/wordoku' }
 ];
