@@ -4,4 +4,4 @@
 	pageTitle.set('Kimcheese');
 </script>
 
-Testing
+Coming soon

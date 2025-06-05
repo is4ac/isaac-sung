@@ -4,4 +4,4 @@
 	pageTitle.set('SharkByte');
 </script>
 
-Testing
+Coming soon

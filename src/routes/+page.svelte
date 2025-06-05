@@ -23,7 +23,7 @@
 	pageTitle.set('isaac-sung.com');
 </script>
 
-<DraggableIcon />
+<!-- <DraggableIcon /> -->
 
 <div class="z-10 flex h-[50dvh] flex-col items-center justify-start">
 	<div class="grid max-w-[750px] grid-cols-3 gap-1 sm:grid-cols-4 md:grid-cols-5">
