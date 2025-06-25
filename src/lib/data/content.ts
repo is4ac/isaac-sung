@@ -55,7 +55,7 @@ export const content: CardType[] = [
 		imageSrc: resumeImage,
 		title: 'CV/Resume',
 		description: 'View my work experience and related skills in PDF form.',
-		url: '/Isaac_Sung_2025-06-04.pdf'
+		url: '/Isaac_Sung_Resume_2025.pdf'
 	},
 	{ imageSrc: researchImage, title: 'PhD & Research', description: 'Coming soon', url: '/' },
 	{ imageSrc: teachingImage, title: 'Teaching', description: 'Coming soon', url: '/' },
