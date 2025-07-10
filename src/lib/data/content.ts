@@ -57,9 +57,14 @@ export const content: CardType[] = [
 		description: 'View my work experience and related skills in PDF form.',
 		url: '/Isaac_Sung_Resume_2025.pdf'
 	},
+	{
+		imageSrc: bnwImage,
+		title: 'Brave New Word',
+		description:
+			'Brave New Word is a quick, casual word finding game made as part of a dissertation research project.',
+		url: 'https://isaacsung.itch.io/brave-new-word'
+	},
 	{ imageSrc: researchImage, title: 'PhD & Research', description: 'Coming soon', url: '/' },
 	{ imageSrc: teachingImage, title: 'Teaching', description: 'Coming soon', url: '/' },
-
-	{ imageSrc: bnwImage, title: 'Brave New Word', description: 'Coming soon', url: '/' },
 	{ imageSrc: fillerImage, title: 'Wordoku (WIP)', description: 'Coming soon', url: '/' }
 ];
