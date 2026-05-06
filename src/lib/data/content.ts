@@ -1,4 +1,3 @@
-import fillerImage from '$lib/assets/images/filler.webp';
 import kimcheeseImage from '$lib/assets/images/kimcheese.webp';
 import sharkbyteImage from '$lib/assets/images/sharkbyte.webp';
 import charisnotesImage from '$lib/assets/images/charisnotes.webp';
@@ -66,5 +65,4 @@ export const content: CardType[] = [
 	},
 	{ imageSrc: researchImage, title: 'PhD & Research', description: 'Coming soon', url: '/' },
 	{ imageSrc: teachingImage, title: 'Teaching', description: 'Coming soon', url: '/' },
-	{ imageSrc: fillerImage, title: 'Wordoku (WIP)', description: 'Coming soon', url: '/' }
 ];
