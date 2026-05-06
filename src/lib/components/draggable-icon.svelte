@@ -46,9 +46,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: theme(colors.primary);
+		background-color: var(--color-primary);
 		border-radius: 100%;
-		border: 2px solid theme(colors.white);
+		border: 2px solid var(--color-white);
 		width: 64px;
 		height: 64px;
 		user-select: none;
