@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { run } from 'svelte/legacy';
+
 	import { type CardType } from '$lib/types';
 	import Card from '$lib/components/card.svelte';
 	import DetailsPane from '$lib/components/details-pane.svelte';
@@ -6,11 +8,13 @@
 	import { pageTitle } from '$lib/stores/pageTitle';
 	import DraggableIcon from '$lib/components/draggable-icon.svelte';
 
-	let selectedCard: CardType | null = null;
-	let hoveredCard: CardType | null = null;
-	let displayCard: CardType | null = null;
+	let selectedCard: CardType | null = $state(null);
+	let hoveredCard: CardType | null = $state(null);
+	let displayCard: CardType | null = $state(null);
 
-	$: displayCard = hoveredCard || selectedCard;
+	run(() => {
+		displayCard = hoveredCard || selectedCard;
+	});
 
 	const handleHover = (card: CardType) => {
 		hoveredCard = card;

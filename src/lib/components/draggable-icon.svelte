@@ -34,7 +34,7 @@
 	});
 </script>
 
-<aside draggable="true" id="dragme" on:dragstart={drag_start}>P1</aside>
+<aside draggable="true" id="dragme" ondragstart={drag_start}>P1</aside>
 
 <style lang="postcss">
 	aside {

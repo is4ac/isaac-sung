@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-background: #010a19;
+    --color-white: #f6f8f9;
+    --color-border: #a2a6a8;
+    --color-cardBackground: #415f7d;
+    --color-blueGray: #4e5861;
+    --color-darkGray: #39383e;
+    --color-darkRed: #250303;
+    --color-primary: #0045f6ff;
+}
 
 @layer base {
 	:root {
@@ -22,9 +31,9 @@
 
 html {
 	font-family: 'PressStart2P', sans-serif;
-	background-color: theme(colors.background);
-	color: theme(colors.white);
-	border-color: theme(colors.border);
+	background-color: var(--color-background);
+	color: var(--color-white);
+	border-color: var(--color-border);
 }
 
 a {
@@ -42,12 +51,6 @@ a {
 *::before,
 *::after {
 	box-sizing: border-box;
-}
-/*
-  2. Remove default margin
-*/
-* {
-	margin: 0;
 }
 /*
   Typographic tweaks!
