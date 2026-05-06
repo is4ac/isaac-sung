@@ -9,6 +9,8 @@
     --color-darkGray: #39383e;
     --color-darkRed: #250303;
     --color-primary: #0045f6ff;
+    --color-red: #c64a4e;
+    --color-bgred: #673139;
 }
 
 @layer base {
